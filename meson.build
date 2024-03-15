@@ -1,5 +1,5 @@
 project('malcontent', 'c',
-  version : '0.12.0',
+  version : '0.13.0',
   meson_version : '>= 1.2.0',
   license: ['LGPL-2.1-or-later', 'GPL-2.0-or-later'],
   default_options : [
