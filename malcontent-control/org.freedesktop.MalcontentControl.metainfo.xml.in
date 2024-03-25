@@ -25,6 +25,16 @@
       <caption>Main window</caption>
     </screenshot>
   </screenshots>
+  <supports>
+    <!-- Works on desktops or touchscreen devices -->
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  <requires>
+    <!-- Adaptive -->
+    <display_length compare="ge">360</display_length>
+  </requires>
   <provides>
     <binary>malcontent-control</binary>
   </provides>
