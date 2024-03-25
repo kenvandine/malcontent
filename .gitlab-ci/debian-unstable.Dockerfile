@@ -1,6 +1,7 @@
 FROM debian:unstable
 
 RUN apt-get update -qq && apt-get install --no-install-recommends -qq -y \
+    appstream \
     desktop-file-utils \
     gettext \
     git \
