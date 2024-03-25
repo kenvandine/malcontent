@@ -58,9 +58,9 @@ if desktop_file_validate.found()
   )
 endif
 
-appdata_file = i18n.merge_file(
-  input: '@0@.appdata.xml.in'.format(application_id),
-  output: '@0@.appdata.xml'.format(application_id),
+metainfo_file = i18n.merge_file(
+  input: '@0@.metainfo.xml.in'.format(application_id),
+  output: '@0@.metainfo.xml'.format(application_id),
   po_dir: join_paths(meson.current_source_dir(), '..', 'po'),
   install: true,
   install_dir: join_paths(get_option('datadir'), 'metainfo'),
@@ -71,7 +71,7 @@ if appstream_util.found()
   test(
     'validate-appdata', appstream_util,
     args: [
-      'validate-relax', '--nonet', appdata_file.full_path(),
+      'validate-relax', '--nonet', metainfo_file.full_path(),
     ],
     suite: ['malcontent-control'],
   )
