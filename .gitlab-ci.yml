@@ -7,7 +7,7 @@ cache:
     - _ccache/
 
 variables:
-  DEBIAN_IMAGE: "registry.freedesktop.org/pwithnall/malcontent/debian-unstable:v5"
+  DEBIAN_IMAGE: "registry.freedesktop.org/pwithnall/malcontent/debian-unstable:v6"
   MESON_TEST_TIMEOUT_MULTIPLIER: 2
   G_MESSAGES_DEBUG: all
   MESON_COMMON_OPTIONS: "--buildtype debug --wrap-mode=nodownload"
