@@ -1,16 +1,16 @@
 # Swedish translations for malcontent package.
-# Copyright © 2020-2023 malcontent's COPYRIGHT HOLDER
+# Copyright © 2020-2024 malcontent's COPYRIGHT HOLDER
 # This file is distributed under the same license as the malcontent package.
 # Automatically generated, 2020.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2023.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: malcontent\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pwithnall/malcontent/"
 "issues\n"
-"POT-Creation-Date: 2023-10-13 16:18+0000\n"
-"PO-Revision-Date: 2023-10-20 21:11+0200\n"
+"POT-Creation-Date: 2024-03-26 03:25+0000\n"
+"PO-Revision-Date: 2024-03-17 22:41+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:4
 msgid "Change your own app filter"
@@ -117,12 +117,12 @@ msgstr "Läs en annan användares kontoinformation"
 msgid "Authentication is required to read another user’s account info."
 msgstr "Autentisering krävs för att läsa en annan användares kontoinformation."
 
-#: libmalcontent/app-filter.c:694
+#: libmalcontent/app-filter.c:696
 #, c-format
 msgid "App filter for user %u was in an unrecognized format"
 msgstr "Programfilter för användare %u var i ett okänt format"
 
-#: libmalcontent/app-filter.c:725
+#: libmalcontent/app-filter.c:727
 #, c-format
 msgid "OARS filter for user %u has an unrecognized kind ‘%s’"
 msgstr "OARS-filter för användare %u har en okänd typ ”%s”"
@@ -188,13 +188,13 @@ msgstr "Inga program att begränsa hittades."
 msgid "unknown"
 msgstr "okänd"
 
-#: libmalcontent-ui/user-controls.c:303 libmalcontent-ui/user-controls.c:388
-#: libmalcontent-ui/user-controls.c:641
-msgid "All Ages"
-msgstr "Alla åldrar"
+#: libmalcontent-ui/user-controls.c:306 libmalcontent-ui/user-controls.c:394
+#: libmalcontent-ui/user-controls.c:647
+msgid "Unrestricted"
+msgstr "Obegränsad"
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:470
+#: libmalcontent-ui/user-controls.c:476
 #, c-format
 msgid ""
 "Prevents %s from running web browsers. Limited web content may still be "
@@ -204,13 +204,13 @@ msgstr ""
 "fortfarande finnas tillgängligt i andra program."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:475
+#: libmalcontent-ui/user-controls.c:481
 #, c-format
 msgid "Prevents specified applications from being used by %s."
 msgstr "Förhindrar angivna program från att användas av %s."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:480
+#: libmalcontent-ui/user-controls.c:486
 #, c-format
 msgid "Prevents %s from installing applications."
 msgstr "Förhindrar %s från att installera program."
@@ -264,7 +264,7 @@ msgstr "— visa och redigera föräldrakontroller"
 #. Translators: This is the title of the main window
 #. Translators: the name of the application as it appears in a software center
 #: malcontent-control/application.c:123 malcontent-control/main.ui:17
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:9
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:9
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:3
 msgid "Parental Controls"
 msgstr "Föräldrakontroller"
@@ -286,15 +286,15 @@ msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>"
 msgid "Malcontent Website"
 msgstr "Webbplats för Malcontent"
 
-#: malcontent-control/application.c:341
+#: malcontent-control/application.c:340
 msgid "The help contents could not be displayed"
 msgstr "Hjälpinnehållet kunde inte visas"
 
-#: malcontent-control/application.c:388
+#: malcontent-control/application.c:389
 msgid "Failed to load user data from the system"
 msgstr "Misslyckades med att läsa in användardata från systemet"
 
-#: malcontent-control/application.c:390
+#: malcontent-control/application.c:391
 msgid "Please make sure that the AccountsService is installed and enabled."
 msgstr "Försäkra dig om att AccountsService är installerat och aktiverat."
 
@@ -307,7 +307,7 @@ msgstr "Försäkra dig om att AccountsService är installerat och aktiverat."
 #. * further!
 #. * https://gitlab.freedesktop.org/pwithnall/malcontent/-/issues/new
 #.
-#: malcontent-control/application.c:421
+#: malcontent-control/application.c:424
 #, c-format
 msgid ""
 "It’s recommended that restrictions are set as part of an ongoing "
@@ -368,13 +368,13 @@ msgid "_About Parental Controls"
 msgstr "_Om Föräldrakontroller"
 
 #. Translators: the brief summary of the application as it appears in a software center.
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:12
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:12
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:4
 msgid "Set parental controls and monitor usage by users"
 msgstr "Ställ in föräldrakontroller och övervaka användares användning"
 
 #. Translators: These are the application description paragraphs in the AppData file.
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:16
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:16
 msgid ""
 "Manage users’ parental controls restrictions, controlling how long they can "
 "use the computer for, what software they can install, and what installed "
@@ -384,16 +384,12 @@ msgstr ""
 "kan använda datorn, vilken programvara de kan installera, och vilken "
 "installerad programvara som de kan köra."
 
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:25
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:25
 msgid "Main window"
 msgstr "Huvudfönster"
 
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:39
-msgid "The GNOME Project"
-msgstr "GNOME-projektet"
-
 #. Translators: Search terms to find this application. Do NOT translate or localise the semicolons! The list MUST also end with a semicolon!
-#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:14
+#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:13
 msgid ""
 "parental controls;screen time;app restrictions;web browser restrictions;oars;"
 "usage;usage limit;kid;child;"
