@@ -6,10 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: malcontent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-10 12:04+0100\n"
-"PO-Revision-Date: 2020-04-15 13:42+0100\n"
-"Last-Translator: Automatically generated\n"
+"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pwithnall/malcontent/"
+"issues\n"
+"POT-Creation-Date: 2024-03-26 03:25+0000\n"
+"PO-Revision-Date: 2024-07-24 11:06+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -17,420 +18,388 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:4
 msgid "Change your own app filter"
-msgstr ""
+msgstr "Spremennite lastni filter programov"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:5
 msgid "Authentication is required to change your app filter."
 msgstr ""
+"Preverjanje pristnosti je potrebno za spreminjanje lastnega filtra programov."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:14
 msgid "Read your own app filter"
-msgstr ""
+msgstr "Preberite lastni filter programov"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:15
 msgid "Authentication is required to read your app filter."
 msgstr ""
+"Preverjanje pristnosti je potrebno za branje lastnega filtra programov."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:24
 msgid "Change another user’s app filter"
-msgstr ""
+msgstr "Spremenite filter programov drugega uporabnika"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:25
 msgid "Authentication is required to change another user’s app filter."
 msgstr ""
+"Preverjanje pristnosti je potrebno za spreminjanje filtra programov za "
+"drugega uporabnika."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:34
 msgid "Read another user’s app filter"
-msgstr ""
+msgstr "Preberite filter programov drugega uporabnika"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:35
 msgid "Authentication is required to read another user’s app filter."
 msgstr ""
+"Preverjanje pristnosti je potrebno za branje filtra programov drugega "
+"uporabnika."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:44
 msgid "Change your own session limits"
-msgstr ""
+msgstr "Spremenite svoje omejitve sej"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:45
 msgid "Authentication is required to change your session limits."
-msgstr ""
+msgstr "Preverjanje pristnosti je potrebno za spreminjanje omejitev sej."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:54
 msgid "Read your own session limits"
-msgstr ""
+msgstr "Preberite svoje omejitve sej"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:55
 msgid "Authentication is required to read your session limits."
-msgstr ""
+msgstr "Preverjanje pristnosti je potrebno za branje omejitev sej."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:64
 msgid "Change another user’s session limits"
-msgstr ""
+msgstr "Spremite omejitve sej drugega uporabnika"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:65
 msgid "Authentication is required to change another user’s session limits."
 msgstr ""
+"Preverjanje pristnosti je potrebno za spreminjanje omejitev sej drugega "
+"uporabnika."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:74
 msgid "Read another user’s session limits"
-msgstr ""
+msgstr "Preberite omejitve sej drugega uporabnika"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:75
 msgid "Authentication is required to read another user’s session limits."
 msgstr ""
+"Preverjanje pristnosti je potrebno za branje omejitev sej drugega uporabnika."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:84
 msgid "Change your own account info"
-msgstr ""
+msgstr "Spremenite podatke o svojem računu"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:85
 msgid "Authentication is required to change your account info."
 msgstr ""
+"Preverjanje pristnosti je potrebno za spremembo podatkov vašega računa."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:94
 msgid "Read your own account info"
-msgstr ""
+msgstr "Preberite podatke o svojem računu"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:95
 msgid "Authentication is required to read your account info."
-msgstr ""
+msgstr "Preverjanje pristnosti je potrebno za branje podatkov o vašem računu."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:104
 msgid "Change another user’s account info"
-msgstr ""
+msgstr "Spremenite podatke o računu drugega uporabnika"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:105
 msgid "Authentication is required to change another user’s account info."
 msgstr ""
+"Preverjanje pristnosti je potrebno za spremembo podatkov o računu drugega "
+"uporabnika."
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:114
 msgid "Read another user’s account info"
-msgstr ""
+msgstr "Preberite podatke o računu drugega uporabnika"
 
 #: accounts-service/com.endlessm.ParentalControls.policy.in:115
 msgid "Authentication is required to read another user’s account info."
 msgstr ""
+"Preverjanje pristnosti je potrebno za branje podatkov o računu drugega "
+"uporabnika."
 
-#: libmalcontent/app-filter.c:694
+#: libmalcontent/app-filter.c:696
 #, c-format
 msgid "App filter for user %u was in an unrecognized format"
-msgstr ""
+msgstr "Filter programov za uporabnika %u je v neprepoznani obliki zapisa"
 
-#: libmalcontent/app-filter.c:725
+#: libmalcontent/app-filter.c:727
 #, c-format
 msgid "OARS filter for user %u has an unrecognized kind ‘%s’"
-msgstr ""
+msgstr "Filter OARS za uporabnika %u je neprepoznane vrste »%s«"
 
-#: libmalcontent/manager.c:283 libmalcontent/manager.c:412
+#: libmalcontent/manager.c:283 libmalcontent/manager.c:420
+#: libmalcontent/manager.c:803
 #, c-format
-msgid "Not allowed to query app filter data for user %u"
+msgid "Not allowed to query parental controls data for user %u"
 msgstr ""
+"Poizvedovanje po podatkih starševskega nadzora za uporabnika %u ni dovoljeno"
 
 #: libmalcontent/manager.c:288
 #, c-format
 msgid "User %u does not exist"
-msgstr ""
+msgstr "Uporabnik %u ne obstaja"
 
-#: libmalcontent/manager.c:394
+#: libmalcontent/manager.c:296
+msgid "System accounts service not available"
+msgstr "Storitev sistemskih računov ni na voljo"
+
+#: libmalcontent/manager.c:402
 msgid "App filtering is globally disabled"
-msgstr ""
+msgstr "Filtriranje programov je globalno onemogočeno"
 
-#: libmalcontent/manager.c:777
+#: libmalcontent/manager.c:785
 msgid "Session limits are globally disabled"
-msgstr ""
-
-#: libmalcontent/manager.c:795
-#, c-format
-msgid "Not allowed to query session limits data for user %u"
-msgstr ""
+msgstr "Omejitve sej so globalno onemogočene"
 
 #: libmalcontent/session-limits.c:306
 #, c-format
 msgid "Session limit for user %u was in an unrecognized format"
-msgstr ""
+msgstr "Omejitev sej za uporabnika %u je bila v ne prepoznani obliki zapisa"
 
 #: libmalcontent/session-limits.c:328
 #, c-format
 msgid "Session limit for user %u has an unrecognized type ‘%u’"
-msgstr ""
+msgstr "Omejitev seje za uporabnika %u je ne prepoznane vrste »%u«"
 
 #: libmalcontent/session-limits.c:346
 #, c-format
 msgid "Session limit for user %u has invalid daily schedule %u–%u"
-msgstr ""
-
-#. TRANSLATORS: This is the formatting of English and localized name
-#. of the rating e.g. "Adults Only (solo adultos)"
-#: libmalcontent-ui/gs-content-rating.c:75
-#, c-format
-msgid "%s (%s)"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:209
-msgid "General"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:218
-msgid "ALL"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:222
-#: libmalcontent-ui/gs-content-rating.c:485
-msgid "Adults Only"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:224
-#: libmalcontent-ui/gs-content-rating.c:484
-msgid "Mature"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:226
-#: libmalcontent-ui/gs-content-rating.c:483
-msgid "Teen"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:228
-#: libmalcontent-ui/gs-content-rating.c:482
-msgid "Everyone 10+"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:230
-#: libmalcontent-ui/gs-content-rating.c:481
-msgid "Everyone"
-msgstr ""
-
-#: libmalcontent-ui/gs-content-rating.c:232
-#: libmalcontent-ui/gs-content-rating.c:480
-msgid "Early Childhood"
-msgstr ""
+msgstr "Omejitev sej za uporabnika %u ima neveljaven dnevni urnik %u–%u"
 
 #. Translators: the placeholder is a user’s full name
-#: libmalcontent-ui/restrict-applications-dialog.c:222
+#: libmalcontent-ui/restrict-applications-dialog.c:256
 #, c-format
 msgid "Restrict %s from using the following installed applications."
-msgstr ""
+msgstr "Omejite %s uporabo naslednjih nameščenih programov."
 
 #: libmalcontent-ui/restrict-applications-dialog.ui:6
-#: libmalcontent-ui/restrict-applications-dialog.ui:12
 msgid "Restrict Applications"
-msgstr ""
+msgstr "Omeji programe"
 
-#: libmalcontent-ui/restrict-applications-selector.ui:24
+#: libmalcontent-ui/restrict-applications-dialog.ui:22
+msgid "Search for applications…"
+msgstr "Iskanje programov ..."
+
+#: libmalcontent-ui/restrict-applications-selector.ui:13
 msgid "No applications found to restrict."
-msgstr ""
+msgstr "Ni najdenih programov za omejevanje."
 
 #. Translators: this is the full name for an unknown user account.
-#: libmalcontent-ui/user-controls.c:242 libmalcontent-ui/user-controls.c:253
+#: libmalcontent-ui/user-controls.c:198 libmalcontent-ui/user-controls.c:209
 msgid "unknown"
-msgstr ""
+msgstr "neznano"
 
-#: libmalcontent-ui/user-controls.c:338 libmalcontent-ui/user-controls.c:425
-#: libmalcontent-ui/user-controls.c:711
-msgid "All Ages"
-msgstr ""
+#: libmalcontent-ui/user-controls.c:306 libmalcontent-ui/user-controls.c:394
+#: libmalcontent-ui/user-controls.c:647
+msgid "Unrestricted"
+msgstr "Neomejeno"
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:514
+#: libmalcontent-ui/user-controls.c:476
 #, c-format
 msgid ""
 "Prevents %s from running web browsers. Limited web content may still be "
 "available in other applications."
 msgstr ""
+"Preprečuje %s zagon spletnih brskalnikov. Omejena spletna vsebina je morda "
+"še vedno na voljo v drugih programih."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:519
+#: libmalcontent-ui/user-controls.c:481
 #, c-format
 msgid "Prevents specified applications from being used by %s."
-msgstr ""
+msgstr "Prepreči uporabo določenih programov s strani %s."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:524
+#: libmalcontent-ui/user-controls.c:486
 #, c-format
 msgid "Prevents %s from installing applications."
-msgstr ""
+msgstr "Preprečuje %s nameščanje programov."
 
-#. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:529
-#, c-format
-msgid "Applications installed by %s will not appear for other users."
-msgstr ""
-
-#: libmalcontent-ui/user-controls.ui:17
+#: libmalcontent-ui/user-controls.ui:25
 msgid "Application Usage Restrictions"
-msgstr ""
+msgstr "Omejitve uporabe programov"
 
-#: libmalcontent-ui/user-controls.ui:68
+#: libmalcontent-ui/user-controls.ui:28
 msgid "Restrict _Web Browsers"
-msgstr ""
+msgstr "Omeji _spletne brskalnike"
 
-#: libmalcontent-ui/user-controls.ui:152
+#: libmalcontent-ui/user-controls.ui:51
 msgid "_Restrict Applications"
-msgstr ""
+msgstr "_Omeji programe"
 
-#: libmalcontent-ui/user-controls.ui:231
+#: libmalcontent-ui/user-controls.ui:73
 msgid "Software Installation Restrictions"
-msgstr ""
+msgstr "Omejitve namestitve programja"
 
-#: libmalcontent-ui/user-controls.ui:281
+#: libmalcontent-ui/user-controls.ui:77
 msgid "Restrict Application _Installation"
-msgstr ""
+msgstr "Omeji _namestitev programa"
 
-#: libmalcontent-ui/user-controls.ui:366
-msgid "Restrict Application Installation for _Others"
-msgstr ""
-
-#: libmalcontent-ui/user-controls.ui:451
+#: libmalcontent-ui/user-controls.ui:99
 msgid "Application _Suitability"
-msgstr ""
+msgstr "_Primernost programa"
 
-#: libmalcontent-ui/user-controls.ui:473
+#: libmalcontent-ui/user-controls.ui:102
 msgid ""
-"Restricts browsing or installation of applications to applications suitable "
-"for certain ages or above."
+"Restricts the browsing or installation of applications unsuitable for this "
+"age or younger."
 msgstr ""
+"Omejuje brskanje ali namestitev programov, ki niso primerni za to starost "
+"ali za mlajše."
+
+#. Translators: This documents the --user command line option to malcontent-control:
+#: malcontent-control/application.c:102
+msgid "User to select in the UI"
+msgstr "Uporabnik, ki ga želite izbrati v uporabniškem vmesniku"
+
+#. Translators: This is a placeholder for a command line argument value:
+#: malcontent-control/application.c:104
+msgid "USERNAME"
+msgstr "UPORABNIŠKO_IME"
+
+#: malcontent-control/application.c:116
+msgid "— view and edit parental controls"
+msgstr "— ogled in urejanje starševskega nadzora"
 
 #. Translators: This is the title of the main window
 #. Translators: the name of the application as it appears in a software center
-#: malcontent-control/application.c:105 malcontent-control/main.ui:12
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:9
+#: malcontent-control/application.c:123 malcontent-control/main.ui:17
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:9
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:3
 msgid "Parental Controls"
-msgstr ""
+msgstr "Starševski nadzor"
 
-#: malcontent-control/application.c:270
+#: malcontent-control/application.c:309
 msgid "Copyright © 2019, 2020 Endless Mobile, Inc."
-msgstr ""
+msgstr "Avtorska in sorodne pravice © 2019, 2020 Endless Mobile, Inc."
 
 #. Translators: this should be "translated" to the
 #. names of people who have translated Malcontent into
 #. this language, one per line.
-#: malcontent-control/application.c:275
+#: malcontent-control/application.c:314
 msgid "translator-credits"
-msgstr ""
+msgstr "Martin Srebotnjak <miles@filmsi.net>"
 
 #. Translators: "Malcontent" is the brand name of this
 #. project, so should not be translated.
-#: malcontent-control/application.c:281
+#: malcontent-control/application.c:320
 msgid "Malcontent Website"
-msgstr ""
+msgstr "Spletno mesto z zlonamerno vsebino"
 
-#: malcontent-control/application.c:299
+#: malcontent-control/application.c:340
 msgid "The help contents could not be displayed"
-msgstr ""
+msgstr "Vsebine pomoči ni bilo mogoče prikazati"
 
-#: malcontent-control/application.c:336
+#: malcontent-control/application.c:389
 msgid "Failed to load user data from the system"
-msgstr ""
+msgstr "Prenos uporabniških podatkov iz sistema ni uspel"
 
-#: malcontent-control/application.c:338
+#: malcontent-control/application.c:391
 msgid "Please make sure that the AccountsService is installed and enabled."
-msgstr ""
+msgstr "Preverite, ali je storitev AccountsService nameščena in omogočena."
 
-#: malcontent-control/carousel.ui:48
+#. Translators: Replace the link to commonsensemedia.org with some
+#. * localised guidance for parents/carers on how to set restrictions on
+#. * their child/caree in a responsible way which is in keeping with the
+#. * best practice and culture of the region. If no suitable localised
+#. * guidance exists, and if the default commonsensemedia.org link is not
+#. * suitable, please file an issue against malcontent so we can discuss
+#. * further!
+#. * https://gitlab.freedesktop.org/pwithnall/malcontent/-/issues/new
+#.
+#: malcontent-control/application.c:424
+#, c-format
+msgid ""
+"It’s recommended that restrictions are set as part of an ongoing "
+"conversation with %s. <a href='https://www.commonsensemedia.org/privacy-and-"
+"internet-safety'>Read guidance</a> on what to consider."
+msgstr ""
+"Priporočljivo je, da se omejitve določijo kot del stalnega pogovora s/z %s. "
+"<a href='https://www.commonsensemedia.org/privacy-and-internet-"
+"safety'>Preberite navodila</a> o tem, kaj morate upoštevati."
+
+#: malcontent-control/carousel.ui:38
 msgid "Previous Page"
-msgstr ""
+msgstr "Predhodna stran"
 
-#: malcontent-control/carousel.ui:74
+#: malcontent-control/carousel.ui:57
 msgid "Next Page"
-msgstr ""
+msgstr "Naslednja stran"
 
-#: malcontent-control/main.ui:93
+#: malcontent-control/main.ui:87
 msgid "Permission Required"
-msgstr ""
+msgstr "Potrebno je dovoljenje"
 
-#: malcontent-control/main.ui:107
+#: malcontent-control/main.ui:88
 msgid ""
 "Permission is required to view and change user parental controls settings."
 msgstr ""
+"Za ogled in spreminjanje nastavitev starševskega nadzora uporabnikov "
+"potrebujete pravice."
 
-#: malcontent-control/main.ui:148
-msgid "No Child Users Configured"
-msgstr ""
+#: malcontent-control/main.ui:110
+msgid "No Standard User Accounts"
+msgstr "Brez standardnih uporabniških računov"
 
-#: malcontent-control/main.ui:162
+#: malcontent-control/main.ui:111
 msgid ""
-"No child users are currently set up on the system. Create one before setting "
-"up their parental controls."
+"Parental controls can only be applied to standard user\n"
+"accounts. These can be created in the user settings."
 msgstr ""
+"Starševski nadzor je mogoče uporabiti samo za standardne uporabniške\n"
+"račune. Te lahko ustvarite v uporabniških nastavitvah."
 
-#: malcontent-control/main.ui:174
-msgid "Create _Child User"
-msgstr ""
+#: malcontent-control/main.ui:115
+msgid "_User Settings"
+msgstr "_Uporabniške nastavitve"
 
-#: malcontent-control/main.ui:202
+#: malcontent-control/main.ui:138
 msgid "Loading…"
-msgstr ""
+msgstr "Poteka nalaganje …"
 
-#: malcontent-control/main.ui:265
+#: malcontent-control/main.ui:171
 msgid "_Help"
 msgstr "Pomo_č"
 
-#: malcontent-control/main.ui:269
+#: malcontent-control/main.ui:175
 msgid "_About Parental Controls"
-msgstr ""
+msgstr "_O Starševskem nadzoru"
 
 #. Translators: the brief summary of the application as it appears in a software center.
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:12
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:12
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:4
 msgid "Set parental controls and monitor usage by users"
 msgstr ""
+"Nastavite starševski nadzor in spremljajte uporabo s strani uporabnikov"
 
 #. Translators: These are the application description paragraphs in the AppData file.
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:16
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:16
 msgid ""
 "Manage users’ parental controls restrictions, controlling how long they can "
 "use the computer for, what software they can install, and what installed "
 "software they can run."
 msgstr ""
+"Upravljajte omejitve starševskega nadzora uporabnikov in nadzirajte, kako "
+"dolgo lahko uporabljajo računalnik, katero programsko opremo lahko namestijo "
+"in katero nameščeno programsko opremo lahko izvajajo."
 
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:39
-msgid "The GNOME Project"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:50
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:59
-msgid "Minor improvements to parental controls application UI"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:51
-msgid "Add a user manual"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:52
-msgid "Translation updates"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:60
-msgid "Translations to Ukrainian and Polish"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:67
-msgid "Improve parental controls application UI and add icon"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:68
-msgid "Support for indicating which accounts are parent accounts"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:75
-msgid "Initial release of basic parental controls application"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:76
-msgid "Support for setting app installation and run restrictions on users"
-msgstr ""
-
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:83
-msgid "Maintenance release of underlying parental controls library"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:7
-msgid "org.freedesktop.MalcontentControl"
-msgstr ""
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:25
+msgid "Main window"
+msgstr "Glavno okno"
 
 #. Translators: Search terms to find this application. Do NOT translate or localise the semicolons! The list MUST also end with a semicolon!
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:13
@@ -438,339 +407,42 @@ msgid ""
 "parental controls;screen time;app restrictions;web browser restrictions;oars;"
 "usage;usage limit;kid;child;"
 msgstr ""
+"starševski nadzor;čas pred zaslonom;omejitve za aplikacije;omejitve "
+"programov;omejitve spletnega brskalnika;raba;omejitev uporabe;uporaba;otrok;"
+"otroci;mladostnik;"
 
 #: malcontent-control/org.freedesktop.MalcontentControl.policy.in:9
 msgid "Manage parental controls"
-msgstr ""
+msgstr "Upravljaj starševski nadzor"
 
 #: malcontent-control/org.freedesktop.MalcontentControl.policy.in:10
 msgid "Authentication is required to read and change user parental controls"
 msgstr ""
+"Preverjanje pristnosti je potrebno za branje in spreminjanje starševskega "
+"nadzora uporabnika"
 
 #: malcontent-control/user-selector.c:426
 msgid "Your account"
-msgstr "Račun"
+msgstr "Vaš račun"
 
 #. Always allow root, to avoid a situation where this PAM module prevents
 #. * all users logging in with no way of recovery.
 #: pam/pam_malcontent.c:142 pam/pam_malcontent.c:188
 #, c-format
 msgid "User ‘%s’ has no time limits enabled"
-msgstr ""
+msgstr "Uporabnik »%s« nima omogočenih časovnih omejitev"
 
 #: pam/pam_malcontent.c:151 pam/pam_malcontent.c:172
 #, c-format
 msgid "Error getting session limits for user ‘%s’: %s"
-msgstr ""
+msgstr "Napaka pri pridobivanju omejitev sej za uporabnika »%s«: %s"
 
 #: pam/pam_malcontent.c:182
 #, c-format
 msgid "User ‘%s’ has no time remaining"
-msgstr ""
+msgstr "Uporabnik »%s« nima preostalega časa"
 
 #: pam/pam_malcontent.c:200
 #, c-format
 msgid "Error setting time limit on login session: %s"
-msgstr ""
-
-#~ msgid "No cartoon violence"
-#~ msgstr "Brez nasilja v risani seriji"
-
-#~ msgid "Cartoon characters in unsafe situations"
-#~ msgstr "Risani liki v nevarnih situacijah"
-
-#~ msgid "Cartoon characters in aggressive conflict"
-#~ msgstr "Risani liki v nasilnih konfliktih"
-
-#~ msgid "Graphic violence involving cartoon characters"
-#~ msgstr "Nazorno nasilje med risanimi liki"
-
-#~ msgid "No fantasy violence"
-#~ msgstr "Brez fantazijskega nasilja"
-
-#~ msgid "Characters in unsafe situations easily distinguishable from reality"
-#~ msgstr ""
-#~ "Liki v nevarnih situacijah, ki jih je mogoče zlahka razlikovati od "
-#~ "realnosti"
-
-#~ msgid ""
-#~ "Characters in aggressive conflict easily distinguishable from reality"
-#~ msgstr ""
-#~ "Liki v nasilnem konfliktu, ki ga je mogoče zlahka razlikovati od realnosti"
-
-#~ msgid "Graphic violence easily distinguishable from reality"
-#~ msgstr "Nazorno nasilje, ki ga je mogoče zlahka razlikovati od realnosti"
-
-#~ msgid "No realistic violence"
-#~ msgstr "Brez realističnega nasilja"
-
-#~ msgid "Mildly realistic characters in unsafe situations"
-#~ msgstr "Napol realistični liki v nevarnih situacijah"
-
-#~ msgid "Depictions of realistic characters in aggressive conflict"
-#~ msgstr "Prikazovanje realističnih likov v nasilnih konfliktih"
-
-#~ msgid "Graphic violence involving realistic characters"
-#~ msgstr "Nazorno nasilje, ki vključuje realistične like"
-
-#~ msgid "No bloodshed"
-#~ msgstr "Brez prelivanja krvi"
-
-#~ msgid "Unrealistic bloodshed"
-#~ msgstr "Nerealistično prelivanje krvi"
-
-#~ msgid "Realistic bloodshed"
-#~ msgstr "Realistično prelivanje krvi"
-
-#~ msgid "Depictions of bloodshed and the mutilation of body parts"
-#~ msgstr "Prikazi prelivanja krvi in pohabljanje delov telesa"
-
-#~ msgid "No sexual violence"
-#~ msgstr "Brez spolnega nasilja"
-
-#~ msgid "Rape or other violent sexual behavior"
-#~ msgstr "Posilstvo ali drugo nasilno vedenje"
-
-#~ msgid "No references to alcohol"
-#~ msgstr "Brez omenjanja alkoholnih pijač"
-
-#~ msgid "References to alcoholic beverages"
-#~ msgstr "Omenjanje alkoholnih pijač"
-
-#~ msgid "Use of alcoholic beverages"
-#~ msgstr "Uporaba alkoholnih pijač"
-
-#~ msgid "No references to illicit drugs"
-#~ msgstr "Ni omenjanja prepovedanih drog"
-
-#~ msgid "References to illicit drugs"
-#~ msgstr "Omenjanje prepovedanih drog"
-
-#~ msgid "Use of illicit drugs"
-#~ msgstr "Uporaba prepovedanih drog"
-
-#~ msgid "References to tobacco products"
-#~ msgstr "Sklici na tobačne izdelke"
-
-#~ msgid "Use of tobacco products"
-#~ msgstr "Uporaba tobačnih izdelkov"
-
-#~ msgid "No nudity of any sort"
-#~ msgstr "Brez vsakršne golote"
-
-#~ msgid "Brief artistic nudity"
-#~ msgstr "Krajše umetniško ponazorjena spolnost"
-
-#~ msgid "Prolonged nudity"
-#~ msgstr "Daljši prikazi golote"
-
-#~ msgid "No references or depictions of sexual nature"
-#~ msgstr "Ni omenjanja in prikazov spolne narave"
-
-#~ msgid "Provocative references or depictions"
-#~ msgstr "Izzivalno obnašanje ali upodobljanje"
-
-#~ msgid "Sexual references or depictions"
-#~ msgstr "Prikrit spolni akt"
-
-#~ msgid "Graphic sexual behavior"
-#~ msgstr "Nazorno seksualno vedenje"
-
-#~ msgid "No profanity of any kind"
-#~ msgstr "Brez kakršnegakoli preklinjanja"
-
-#~ msgid "Mild or infrequent use of profanity"
-#~ msgstr "Nežno ali redko preklinjanje"
-
-#~ msgid "Moderate use of profanity"
-#~ msgstr "Zmerno preklinjanje"
-
-#~ msgid "Strong or frequent use of profanity"
-#~ msgstr "Izrazito ali pogosto preklinjanje"
-
-#~ msgid "No inappropriate humor"
-#~ msgstr "Brez neustreznega humorja"
-
-#~ msgid "Slapstick humor"
-#~ msgstr "Situacijski humor"
-
-#~ msgid "Vulgar or bathroom humor"
-#~ msgstr "Vulgaren humor"
-
-#~ msgid "Mature or sexual humor"
-#~ msgstr "Humor za odrasle"
-
-#~ msgid "No discriminatory language of any kind"
-#~ msgstr "Brez vsakršnega diskriminatornega namigovanja"
-
-#~ msgid "Negativity towards a specific group of people"
-#~ msgstr "Negativen odnos do specifične skupine ljudi"
-
-#~ msgid "Discrimination designed to cause emotional harm"
-#~ msgstr "Diskriminatorno delovanje, ki lahko sproži močan čustven odziv"
-
-#~ msgid "Explicit discrimination based on gender, sexuality, race or religion"
-#~ msgstr "Izrecna diskriminacija na podlagi spola, spolnosti, rase ali vere"
-
-#~ msgid "No advertising of any kind"
-#~ msgstr "Brez kakršnegakoli oglaševanja"
-
-#~ msgid "Product placement"
-#~ msgstr "Opredelitev izdelka"
-
-#~ msgid "Explicit references to specific brands or trademarked products"
-#~ msgstr "Izrecna sklicevanja na določene blagovne znamke ali izdelke"
-
-#~ msgid "Users are encouraged to purchase specific real-world items"
-#~ msgstr "Uporabnike spodbuja k nakupu določenih fizičnih predmetov"
-
-#~ msgid "No gambling of any kind"
-#~ msgstr "Brez kakršnegakoli igranja na srečo"
-
-#~ msgid "Gambling on random events using tokens or credits"
-#~ msgstr ""
-#~ "Igranje na srečo na naključnih dogodkih z uporabo žetonov ali kreditnih "
-#~ "točk"
-
-#~ msgid "Gambling using “play” money"
-#~ msgstr "Igranje na srečo s namišljenim denarjem"
-
-#~ msgid "Gambling using real money"
-#~ msgstr "Igranje na srečo s pravim denarjem"
-
-#~ msgid "No ability to spend money"
-#~ msgstr "Možnost uporabe pravega denarja"
-
-#~ msgid "Users are encouraged to donate real money"
-#~ msgstr "Uporabnike spodbuja k donaciji uradnih denarnih valut"
-
-#~ msgid "Ability to spend real money in-game"
-#~ msgstr "Možnost uporabe pravega denarja znotraj igre"
-
-#~ msgid "No way to chat with other users"
-#~ msgstr "Ni možnosti klepeta z drugimi uporabniki"
-
-#~ msgid "User-to-user game interactions without chat functionality"
-#~ msgstr ""
-#~ "Predložene interakcije med igralci znotraj igre brez funkcije za klepet"
-
-#~ msgid "Moderated chat functionality between users"
-#~ msgstr "Nadzorovana možnost klepeta med uporabniki"
-
-#~ msgid "Uncontrolled chat functionality between users"
-#~ msgstr "Nenadzorovana možnost klepeta med uporabniki"
-
-#~ msgid "No way to talk with other users"
-#~ msgstr "Ni možnosti klepeta ali pogovora z drugimi uporabniki"
-
-#~ msgid "Uncontrolled audio or video chat functionality between users"
-#~ msgstr "Nenadzorovana možnost zvočnega ali video klepeta med uporabniki"
-
-#~ msgid "No sharing of social network usernames or email addresses"
-#~ msgstr "Ni objavljanja uporabniških imen ali elektronskih naslovov"
-
-#~ msgid "Sharing social network usernames or email addresses"
-#~ msgstr ""
-#~ "Objavljanje uporabniškega imena ali elektronskega naslova socialnega "
-#~ "omrežja"
-
-#~ msgid "No sharing of user information with 3rd parties"
-#~ msgstr "Ni objavljanja podrobnosti o uporabniku tretjim osebam"
-
-#~ msgid "Checking for the latest application version"
-#~ msgstr "Poteka preverjanje najnovejše različice programa"
-
-#~ msgid "Sharing diagnostic data that does not let others identify the user"
-#~ msgstr ""
-#~ "Objavljanje podatkov diagnostike, ki ne vključuje podatkov o istovetnosti "
-#~ "uporabnika"
-
-#~ msgid "Sharing information that lets others identify the user"
-#~ msgstr "Objavljanje podrobnosti o uporabniku"
-
-#~ msgid "No sharing of physical location to other users"
-#~ msgstr "Ni objavljanja trenutnega mesta drugim uporabnikom"
-
-#~ msgid "Sharing physical location to other users"
-#~ msgstr "Objavljanje trenutnega mesta drugim uporabnikom"
-
-#~ msgid "No references to homosexuality"
-#~ msgstr "Brez sklicevanja na homoseksualnost"
-
-#~ msgid "Indirect references to homosexuality"
-#~ msgstr "Posredno namigovanje na homoseksualnost"
-
-#~ msgid "Kissing between people of the same gender"
-#~ msgstr "Poljubljanje med osebami istega spola"
-
-#~ msgid "Graphic sexual behavior between people of the same gender"
-#~ msgstr "Nazorno spolno obnašanje med osebami istega spola"
-
-#~ msgid "No references to prostitution"
-#~ msgstr "Brez sklicevanja na prostitucijo"
-
-#~ msgid "Indirect references to prostitution"
-#~ msgstr "Posredno namigovanje na prostitucijo"
-
-#~ msgid "Direct references to prostitution"
-#~ msgstr "Neposredno omenjanje prostitucije"
-
-#~ msgid "Graphic depictions of the act of prostitution"
-#~ msgstr "Nazoren prikaz prostitucije"
-
-#~ msgid "No references to adultery"
-#~ msgstr "Brez sklicevanja na nezvestobo"
-
-#~ msgid "Indirect references to adultery"
-#~ msgstr "Posredno namigovanje na nezvestobo"
-
-#~ msgid "Direct references to adultery"
-#~ msgstr "Neposredno omenjanje nezvestobe"
-
-#~ msgid "Graphic depictions of the act of adultery"
-#~ msgstr "Nazoren prikaz prešuštva"
-
-#~ msgid "No sexualized characters"
-#~ msgstr "Brez izrazitega spolnega izražanja"
-
-#~ msgid "Scantily clad human characters"
-#~ msgstr "Pomanjkljivo oblečeni človeški liki"
-
-#~ msgid "Overtly sexualized human characters"
-#~ msgstr "Prekomerno spolno izraženi človeški liki"
-
-#~ msgid "No references to desecration"
-#~ msgstr "Brez sklicevanja na skrunjenje človeškega telesa"
-
-#~ msgid "Depictions or references to historical desecration"
-#~ msgstr "Opisi ali sklici na zgodovinsko skrunitev"
-
-#~ msgid "Depictions of modern-day human desecration"
-#~ msgstr "Prikazovanje sodobnega skrunjenja človeškega telesa"
-
-#~ msgid "Graphic depictions of modern-day desecration"
-#~ msgstr "Nazorno prikazovanje sodobnega skrunjenja človeškega telesa"
-
-#~ msgid "No visible dead human remains"
-#~ msgstr "Brez vidnih ostankov mrtvih ljudi"
-
-#~ msgid "Visible dead human remains"
-#~ msgstr "Vidni deli mrtvih ljudi"
-
-#~ msgid "Dead human remains that are exposed to the elements"
-#~ msgstr "Izpostavljanje ostankov človeških teles"
-
-#~ msgid "Graphic depictions of desecration of human bodies"
-#~ msgstr "Nazorno prikazovanje oskrunjenja človeškega telesa"
-
-#~ msgid "No references to slavery"
-#~ msgstr "Brez sklicevanja na suženjstvo"
-
-#~ msgid "Depictions or references to historical slavery"
-#~ msgstr "Opisi ali sklicevanja na zgodovinsko suženjstvo"
-
-#~ msgid "Depictions of modern-day slavery"
-#~ msgstr "Prikazovanje sodobnega suženjstva"
-
-#~ msgid "Graphic depictions of modern-day slavery"
-#~ msgstr "Nazorno prikazovanje sodobnega suženjstva"
+msgstr "Napaka pri nastavljanju časovne omejitve za sejo prijave: %s"
