@@ -515,17 +515,13 @@ reload_apps (MctRestrictApplicationsSelector *self)
       const gchar * const *supported_types;
 
       app_name = g_app_info_get_name (app);
+      g_autofree gchar *executable = NULL;
 
       supported_types = g_app_info_get_supported_types (app);
 
       if (!G_IS_DESKTOP_APP_INFO (app) ||
           !g_app_info_should_show (app) ||
           app_name[0] == '\0' ||
-          /* FIXME: Only list flatpak apps and apps with X-Parental-Controls
-           * key set for now; we really need a system-wide MAC to be able to
-           * reliably support blocklisting system programs. */
-          (!g_desktop_app_info_has_key (G_DESKTOP_APP_INFO (app), "X-Flatpak") &&
-           !g_desktop_app_info_has_key (G_DESKTOP_APP_INFO (app), "X-Parental-Controls")) ||
           /* Web browsers are special cased */
           (supported_types && g_strv_contains (supported_types, WEB_BROWSERS_CONTENT_TYPE)))
         {
@@ -553,7 +549,6 @@ reload_apps (MctRestrictApplicationsSelector *self)
       else if (g_desktop_app_info_has_key (G_DESKTOP_APP_INFO (app), "X-Parental-Controls"))
         {
           g_autofree gchar *parental_controls_type = NULL;
-          g_autofree gchar *executable = NULL;
 
           parental_controls_type = g_desktop_app_info_get_string (G_DESKTOP_APP_INFO (app),
                                                                   "X-Parental-Controls");
@@ -567,14 +562,35 @@ reload_apps (MctRestrictApplicationsSelector *self)
                    executable,
                    parental_controls_type);
 
-          /* Have we seen this executable before? */
-          if (!g_hash_table_add (seen_executables, g_steal_pointer (&executable)))
-            {
-              g_debug (" → Skipping ‘%s’ due to seeing its executable already",
-                       g_app_info_get_id (app));
-              continue;
-            }
         }
+      else if (g_desktop_app_info_has_key (G_DESKTOP_APP_INFO (app), "X-SnapInstanceName"))
+        {
+          executable = g_strdup (g_app_info_get_commandline (app));
+          g_debug ("Processing app ‘%s’ (Exec=%s)",
+                   g_app_info_get_id (app),
+                   executable);
+        }
+      else
+	{
+         executable = g_strdup (g_app_info_get_executable (app));
+          g_debug ("Processing app ‘%s’ (Exec=%s)",
+                   g_app_info_get_id (app),
+                   executable);
+	}
+
+        /* NULL executable */
+        if (executable == NULL)
+          {
+	    g_debug ("executable is NULL");
+	    continue;
+	  }
+        /* Have we seen this executable before? */
+        if (!g_hash_table_add (seen_executables, g_steal_pointer (&executable)))
+          {
+            g_debug (" → Skipping ‘%s’ due to seeing its executable already",
+                     g_app_info_get_id (app));
+            continue;
+          }
 
       g_list_store_insert_sorted (self->apps,
                                   app,
@@ -683,6 +699,7 @@ mct_restrict_applications_selector_build_app_filter (MctRestrictApplicationsSele
   while (g_hash_table_iter_next (&iter, (gpointer) &app, NULL))
     {
       g_autofree gchar *flatpak_id = NULL;
+      g_autofree gchar *snap_id = NULL;
 
       flatpak_id = g_desktop_app_info_get_string (app, "X-Flatpak");
       if (flatpak_id)
@@ -703,13 +720,25 @@ mct_restrict_applications_selector_build_app_filter (MctRestrictApplicationsSele
         }
       else
         {
-          const gchar *executable = g_app_info_get_executable (G_APP_INFO (app));
-          g_autofree gchar *path = g_find_program_in_path (executable);
-
-          if (!path)
+	  g_autofree gchar *path = NULL;
+	  if (g_desktop_app_info_has_key (G_DESKTOP_APP_INFO (app), "X-SnapInstanceName"))
             {
-              g_warning ("Skipping blocklisting executable ‘%s’ due to it not being found", executable);
-              continue;
+	      const gchar *commandline = g_app_info_get_commandline (G_APP_INFO (app));
+	      g_autofree gchar **commandline_list = g_strsplit (commandline, " ", -1);
+              if (g_strv_length (commandline_list) > 2)
+		{
+		  path = (commandline_list != NULL) ? commandline_list[2] : NULL;
+		}
+            }
+	  else
+	    {
+	      const gchar *executable = g_app_info_get_executable (G_APP_INFO (app));
+              path = (executable != NULL) ? g_find_program_in_path (executable) : NULL;
+              if (!path)
+                {
+                  g_warning ("Skipping blocklisting executable ‘%s’ due to it not being found", executable);
+                  continue;
+                }
             }
 
           g_debug ("\t\t → Blocklisting path: %s", path);
